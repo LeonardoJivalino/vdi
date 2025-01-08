@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    
+    <div>
+        <label for="firstWords">String:</label>
+        <input type="text" id="firstWords" name="firstWords" placeholder="Input First Words">
+    </div>
+    <br>
+    <div>
+        <label for="secondWords">String:</label>
+        <input type="text" id="secondWords" name="secondWords" placeholder="Input Second Words">
+    </div>
+    <br>
+    <div>
+        <label for="outputString">String:</label>
+        <input type="text" id="outputString" name="outputString" placeholder="Output String" disabled>
+    </div>
+    <br>
+
+    <!-- Split Button -->
+    <div class="button-group">
+        <button id="checkButton" type="submit" class="save">Check Anagram</button>
+
+    </div>
+
+
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#checkButton').click(function () {
+                const firstInput = $('#firstWords').val();
+                const secondInput = $('#secondWords').val();
+                const strings = {
+                                FirstWords : firstInput,
+                                SecondWords : secondInput
+                             };
+
+            $.ajax({
+                url: '/CheckAnagramsForm/CheckAnagram',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(strings),
+                success: function (response) {
+                    $("#outputString").val(response.outputstring);
+                    alert(response.message);
+                    //window.location.href = '/ListTransactionForm/ListTransactionForm';
+                },
+                error: function () {
+                    
+                }
+            });
+
+
+            });
+
+     });
+
+</script>

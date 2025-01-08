@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leona\\source\\repos\\Anagrams\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|c:\\users\\leona\\source\\repos\\anagrams\\anagrams\\controllers\\checkanagramsformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|solutionrelative:anagrams\\controllers\\checkanagramsformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|c:\\users\\leona\\source\\repos\\anagrams\\anagrams\\views\\checkanagramsform\\checkanagramsform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|solutionrelative:anagrams\\views\\checkanagramsform\\checkanagramsform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|c:\\users\\leona\\source\\repos\\anagrams\\anagrams\\models\\stringmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|solutionrelative:anagrams\\models\\stringmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|c:\\users\\leona\\source\\repos\\anagrams\\anagrams\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D97E3C0-B958-44A8-A43E-02DC15BE032E}|Anagrams\\Anagrams.csproj|solutionrelative:anagrams\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringModel.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Models\\StringModel.cs",
+              "RelativeDocumentMoniker": "Anagrams\\Models\\StringModel.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Models\\StringModel.cs",
+              "RelativeToolTip": "Anagrams\\Models\\StringModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:18:25.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Program.cs",
+              "RelativeDocumentMoniker": "Anagrams\\Program.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Program.cs",
+              "RelativeToolTip": "Anagrams\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:17:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckAnagramsFormController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Controllers\\CheckAnagramsFormController.cs",
+              "RelativeDocumentMoniker": "Anagrams\\Controllers\\CheckAnagramsFormController.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Controllers\\CheckAnagramsFormController.cs",
+              "RelativeToolTip": "Anagrams\\Controllers\\CheckAnagramsFormController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:17:04.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckAnagramsForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Views\\CheckAnagramsForm\\CheckAnagramsForm.cshtml",
+              "RelativeDocumentMoniker": "Anagrams\\Views\\CheckAnagramsForm\\CheckAnagramsForm.cshtml",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\Anagrams\\Anagrams\\Views\\CheckAnagramsForm\\CheckAnagramsForm.cshtml",
+              "RelativeToolTip": "Anagrams\\Views\\CheckAnagramsForm\\CheckAnagramsForm.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T23:16:47.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

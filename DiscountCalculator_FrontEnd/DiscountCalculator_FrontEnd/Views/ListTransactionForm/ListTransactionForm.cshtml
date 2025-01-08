@@ -1,0 +1,112 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<DiscountCalculator_FrontEnd.Models.TransactionModel>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data List</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+            .pagination a {
+                margin: 0 5px;
+                padding: 8px 16px;
+                background-color: #f2f2f2;
+                color: #333;
+                text-decoration: none;
+                border-radius: 4px;
+            }
+
+                .pagination a:hover {
+                    background-color: #ddd;
+                }
+
+        .btn-add {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+            .btn-add:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Button to redirect to another page -->
+    <button class="btn-add" onclick="window.location.href='@Url.Action("TransactionForm", "TransactionForm")'">Create New Transaction</button>
+
+    <h2>Data List</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Transaksi ID</th>
+                <th>Tipe Customer</th>
+                <th>Point Reward</th>
+                <th>Total Belanja</th>
+                <th>Diskon</th>
+                <th>Total Bayar</th>                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.TransactionId</td>                    
+                    <td>@item.CustomerType</td>
+                    <td>@item.PointReward</td>
+                    <td>@item.TotalBelanja</td>
+                    <td>@item.Discount</td>
+                    <td>@item.TotalBelanja</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        @if (ViewBag.CurrentPage > 1)
+        {
+            <a href="@Url.Action("Index", "Data", new { page = ViewBag.CurrentPage - 1 })">« Prev</a>
+        }
+        @for (var i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <a href="@Url.Action("Index", "Data", new { page = i })" class="@(i == ViewBag.CurrentPage ? "active" : "")">@i</a>
+        }
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+        {
+            <a href="@Url.Action("Index", "Data", new { page = ViewBag.CurrentPage + 1 })">Next »</a>
+        }
+    </div>
+
+</body>
+</html>

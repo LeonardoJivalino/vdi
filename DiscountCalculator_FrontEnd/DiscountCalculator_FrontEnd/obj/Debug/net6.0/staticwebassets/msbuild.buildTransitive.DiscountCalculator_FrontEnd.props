@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DiscountCalculator_FrontEnd.props" />
+</Project>

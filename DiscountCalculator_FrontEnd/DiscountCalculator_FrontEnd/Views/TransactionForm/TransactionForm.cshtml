@@ -1,0 +1,102 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    
+    
+        <!-- Dropdown for Tipe Customer -->
+        <div>
+            <label for="tipeCustomer">Tipe Customer:</label>
+            <select id="tipeCustomer" name="tipeCustomer">
+                <option value="Gold">Gold</option>
+                <option value="Platinum">Platinum</option>
+                <option value="Silver">Silver</option>
+            </select>
+        </div>
+
+        <br>
+
+        <!-- Input for Point Reward -->
+        <div>
+            <label for="pointReward">Point Reward:</label>
+            <input type="text" id="pointReward" name="pointReward" placeholder="Enter Point Reward">
+        </div>
+
+        <br>
+
+        <!-- Input for Total Belanja -->
+        <div>
+            <label for="totalBelanja">Total Belanja:</label>
+            <input type="text" id="totalBelanja" name="totalBelanja" placeholder="Enter Total Belanja">
+        </div>
+
+        <br>
+
+        <!-- Submit Button -->
+    <div class="button-group">
+        <button id="saveButton" type="submit" class="save">Submit</button>
+        <button id="closeButton" type="submit" class="cancel">Cancel</button>
+    </div>
+        
+    
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#saveButton').click(function () {
+                const totalBelanja = $('#totalBelanja').val();
+                const pointReward = $('#pointReward').val();
+                const tipeCustomer = $('#tipeCustomer option:selected').text();
+
+                const tr = {
+                                CustomerType : tipeCustomer,
+                                TotalBelanja: totalBelanja,
+                                PointReward: pointReward
+                                
+                             };
+
+            $.ajax({
+                url: '/TransactionForm/SubmitTransaction',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(tr),
+                success: function (response) {
+                    alert(response.message);
+                    window.location.href = '/ListTransactionForm/ListTransactionForm';
+                },
+                error: function () {
+                    alert('Please fill all data!');
+                }
+            });
+
+
+            });
+            
+     });
+     $('#closeButton').click(function () {
+            $.ajax({
+                url: '/ListTransactionForm/ListTransactionForm',
+                type: 'POST',
+                contentType: 'application/json',
+                success: function (response) {
+
+                    window.location.href = '/ListTransactionForm/ListTransactionForm';
+                },
+                error: function () {
+                    alert('An error occurred .');
+                }
+            });
+        });
+</script>

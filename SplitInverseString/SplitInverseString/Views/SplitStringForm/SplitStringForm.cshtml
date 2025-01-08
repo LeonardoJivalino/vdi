@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <h2>@ViewBag.Message</h2> <!-- Display message here -->
+    <div>
+        <label for="inputString">String:</label>
+        <input type="text" id="inputString" name="inputString" placeholder="Input String">
+    </div>
+    <br>
+    <div>
+        <label for="outputString">String:</label>
+        <input type="text" id="outputString" name="outputString" placeholder="Output String" disabled>
+    </div>
+    <br>    
+
+    <!-- Split Button -->
+    <div class="button-group">
+        <button id="splitButton" type="submit" class="save">Split</button>
+        
+    </div>
+
+
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#splitButton').click(function () {
+                const stringInput = $('#inputString').val();
+                const string = {
+                                InputString : stringInput
+                             };
+
+            $.ajax({
+                url: '/SplitStringForm/SplitString',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(string),
+                success: function (response) {
+                    $("#outputString").val(response.outputstring);
+                    alert(response.message);
+                    //window.location.href = '/ListTransactionForm/ListTransactionForm';
+                },
+                error: function () {
+                    alert('An error occured!');
+                }
+            });
+
+
+            });
+
+     });
+     
+</script>

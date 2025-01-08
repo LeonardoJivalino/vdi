@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\discountcalculator_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\discountcalculator_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\controllers\\transactionformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\controllers\\transactionformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\views\\transactionform\\transactionform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\views\\transactionform\\transactionform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\controllers\\listtransactionformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\controllers\\listtransactionformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\views\\listtransactionform\\listtransactionform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\views\\listtransactionform\\listtransactionform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|c:\\users\\leona\\source\\repos\\discountcalculator_frontend\\discountcalculator_frontend\\services\\transactionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293549F-0927-4E49-ADF1-8CAC719E8FFB}|DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj|solutionrelative:discountcalculator_frontend\\services\\transactionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T19:11:51.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListTransactionFormController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Controllers\\ListTransactionFormController.cs",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Controllers\\ListTransactionFormController.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Controllers\\ListTransactionFormController.cs",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Controllers\\ListTransactionFormController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:56:37.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListTransactionForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Views\\ListTransactionForm\\ListTransactionForm.cshtml",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Views\\ListTransactionForm\\ListTransactionForm.cshtml",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Views\\ListTransactionForm\\ListTransactionForm.cshtml",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Views\\ListTransactionForm\\ListTransactionForm.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T18:50:32.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Program.cs",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Program.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Program.cs",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:07:54.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionServices.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Services\\TransactionServices.cs",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Services\\TransactionServices.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Services\\TransactionServices.cs",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Services\\TransactionServices.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAASwCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:01:03.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionModel.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Models\\TransactionModel.cs",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Models\\TransactionModel.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Models\\TransactionModel.cs",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Models\\TransactionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:48:02.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionFormController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Controllers\\TransactionFormController.cs",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Controllers\\TransactionFormController.cs",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Controllers\\TransactionFormController.cs",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Controllers\\TransactionFormController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:45:35.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Views\\TransactionForm\\TransactionForm.cshtml",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\Views\\TransactionForm\\TransactionForm.cshtml",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\Views\\TransactionForm\\TransactionForm.cshtml",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\Views\\TransactionForm\\TransactionForm.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T17:44:48.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiscountCalculator_FrontEnd.csproj",
+              "DocumentMoniker": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj",
+              "RelativeDocumentMoniker": "DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj",
+              "ToolTip": "C:\\Users\\leona\\source\\repos\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj",
+              "RelativeToolTip": "DiscountCalculator_FrontEnd\\DiscountCalculator_FrontEnd.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-07T17:43:17.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "31Adc9oJCKuAiNEq/FzmxsLyVOzJyNSARhdQ8S2C+wA=",
+  "Source": "DiscountCalculator_BackEnd",
+  "BasePath": "_content/DiscountCalculator_BackEnd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

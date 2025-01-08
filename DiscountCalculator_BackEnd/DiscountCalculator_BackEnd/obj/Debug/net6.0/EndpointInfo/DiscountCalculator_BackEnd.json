@@ -1,0 +1,59 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DiscountCalculator_BackEnd",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/CalculateDiscount/SaveTransaction": {
+      "post": {
+        "tags": [
+          "CalculateDiscount"
+        ],
+        "parameters": [
+          {
+            "name": "CustomerType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PointReward",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalBelanja",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CalculateDiscount/GetTransactions": {
+      "get": {
+        "tags": [
+          "CalculateDiscount"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
